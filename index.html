@@ -9,21 +9,23 @@
       </h3>
         
       <span>Seid ihr dabei? Dann meldet euch hier kurz an. Wir werden uns dann mit euch in Verbindung setzen.</span>
-      <div class="form-group">
-        <input type="text" class="form-control" value="" placeholder="Dein Vorname" id="contact-name" />
-        <label class="input-field-icon icon-user" for="login-name"></label>
-      </div>
+      <form action="index.php" method="post">
+        <div class="form-group">
+          <input type="text" class="form-control" value="" placeholder="Dein Vorname" id="contact-name" />
+          <label class="input-field-icon icon-user" for="login-name"></label>
+        </div>
 
-      <div class="form-group">
-        <input type="email" class="form-control" value="" placeholder="Deine E-Mail-Adresse" id="contact-email" />
-        <label class="input-field-icon icon-email" for="login-email"></label>
-      </div>
+        <div class="form-group">
+          <input type="email" class="form-control" value="" placeholder="Deine E-Mail-Adresse" id="contact-email" />
+          <label class="input-field-icon icon-email" for="login-email"></label>
+        </div>
 
-      <div class="form-group">
-        <textarea class="form-control" value="" placeholder="Deine Nachricht an uns" id="contact-message" rows="1"></textarea>
-      </div>
+        <div class="form-group">
+          <textarea class="form-control" value="" placeholder="Deine Nachricht an uns" id="contact-message" rows="1"></textarea>
+        </div>
 
-      <button action="index.php" id="contact-send" class="btn btn-primary btn-lg btn-block">Abschicken</button>
+        <button id="contact-send" class="btn btn-primary btn-lg btn-block">Abschicken</button>
+      </form>
     </div>
   </body>
 </html>
